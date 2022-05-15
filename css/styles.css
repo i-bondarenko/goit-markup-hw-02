@@ -1,0 +1,154 @@
+/* цвет заголовков и навигации #212121 */
+/* цвет основной #757575 */
+/* цвет акцент текста #2196F3 */
+/* синий бэкграунд на банере и футер #2F303A */
+/* бекграунд боди #E5E5E5 */
+/* бекграунд секции команда #F5F4FA */
+/* бекграунд хедера и текста белого #FFFFFF */
+
+:root {
+    --main-text-color: #757575;
+    --title-color:  #212121;
+    --accent-color: #2196f3;
+    --second-accent-color: #ffffff;
+    --header-background-color: #ffffff;
+    --body-background-color: #E5E5E5;
+    --team-section-background-color: #F5F4FA;
+    --footer-background-color: #2F303A;
+    --footer-contacts: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    color: var(--main-text-color);
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+}
+.list {
+    list-style: none;
+}
+
+.name {
+    color: var(--accent-color);
+    font-family: 'Raleway';
+}
+
+.name-studio {
+    color: #000000;
+}
+
+.name-studio:hover, 
+.name-studio:focus {
+    color: var(--accent-color);
+}
+
+/* site nav */
+.site-nav .link {
+    color: var(--title-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* contacts */
+.contacts .link {
+    color: var(--main-text-color);
+}
+.contacts .link:hover, 
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* main */
+
+/* banner */
+.banner-title {
+    color: var(--second-accent-color);
+}
+.button {
+    color: var(--title-color);
+    background-color: var(--team-section-background-color);
+}
+
+.button .primary:hover,
+.button .primary:focus {
+    color: var(--accent-color);
+    background-color: var(--second-accent-color);
+}
+
+/* sections */
+.section-title {
+    color: var(--title-color);
+}
+
+/* Преимущества */
+.benefits .title {
+    color: var(--title-color);
+}
+
+/* Чем мы занимаемся */
+
+/* Команда */
+.team .title {
+    color: var(--title-color);
+}
+
+
+
+/* 2-я страница Портфолио */
+
+/*Кнопки */
+.button {
+    color: var(--title-color);
+    background-color: var(--team-section-background-color);
+}
+
+.button .primary {
+    color: var(--second-accent-color);
+    background-color: var(--accent-color);
+}
+
+.button .primary:hover,
+.button .primary:focus {
+    color: var(--accent-color);
+    background-color: var(--second-accent-color);
+}
+
+/* Футер */
+.name-first {
+    color: var(--accent-color);
+}
+
+.name-second {
+    color: var(--second-accent-color);
+}
+
+.name-second:hover,
+.name-second:focus {
+    color: var(--accent-color);
+}
+
+.location {
+    color: var(--second-accent-color);
+}
+
+.phone, .mail {
+    color: var(--footer-contacts);
+}
+.phone:hover, 
+.phone:focus,
+.mail:hover,
+.mail:focus {
+    color: var(--accent-color);
+}
+
+/* Портфолио */
+
+.projects .title {
+    color: var(--title-color);
+}
+.our-works .title:hover,
+.our-works .title:focus {
+    color: var(--second-accent-color);
+    background-color: var(--accent-color);
+}
