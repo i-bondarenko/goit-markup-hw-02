@@ -80,14 +80,14 @@ header {
     text-align: center;
     text-transform: uppercase;
 }
-.banner .button.primary{
+.banner .button .primary{
     letter-spacing: 0.06em;
 }
 .button {
     color: var(--title-color);
     background-color: var(--second-accent-color);
 }
-.button.primary {
+.primary {
     background-color: var(--accent-color);
     color: var(--second-accent-color);
     font-weight: 700;
@@ -97,13 +97,23 @@ header {
     align-items: center;
     text-align: center;
 }
-.button.secondary {
+.primary:hover,
+.primary:focus {
+    background-color: var(--second-accent-color);
+    color: var(--accent-color);
+}
+.secondary {
     background-color: var(--second-accent-color);
     color: var(--accent-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
+}
+.secondary:hover,
+.secondary:focus {
+    background-color: var(--accent-color);
+    color: var(--second-accent-color);
 }
 
 /* sections */
@@ -190,7 +200,7 @@ footer {
 
 /* Портфолио */
 
-.filter .button.secondary {
+.filter .button .secondary {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
