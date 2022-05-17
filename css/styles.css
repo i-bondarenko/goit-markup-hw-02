@@ -80,7 +80,7 @@ header {
     text-align: center;
     text-transform: uppercase;
 }
-.banner .button .primary{
+.banner-title, .primary {
     letter-spacing: 0.06em;
 }
 .button {
@@ -96,6 +96,7 @@ header {
     display: flex;
     align-items: center;
     text-align: center;
+    cursor: pointer;
 }
 .primary:hover,
 .primary:focus {
@@ -109,6 +110,7 @@ header {
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
+    cursor: pointer;
 }
 .secondary:hover,
 .secondary:focus {
@@ -141,7 +143,7 @@ header {
 /* Чем мы занимаемся */
 
 /* Команда */
-.section .teams {
+.section.teams {
     background-color: var(--team-section-background-color);
 }
 
@@ -172,8 +174,6 @@ footer {
 .name-second:focus {
     color: var(--accent-color);
 }
-
-
 
 .location {
     color: var(--second-accent-color);
